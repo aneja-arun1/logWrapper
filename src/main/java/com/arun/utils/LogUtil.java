@@ -10,8 +10,8 @@ import java.util.logging.Logger;
 
 public class LogUtil {
   private static final Logger LOGGER = Logger.getLogger(LogUtil.class.getName());
-  public static Handler consoleHandler = null;
-  public static Handler fileHandler = null;
+  private static Handler consoleHandler = null;
+  private static Handler fileHandler = null;
   
   public static void setHandler() {
     try {
