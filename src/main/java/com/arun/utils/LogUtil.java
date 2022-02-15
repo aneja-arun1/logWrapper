@@ -24,6 +24,11 @@ public class LogUtil {
     }
   }
   
+  public static void info(String message) {
+    setHandler();
+    LOGGER.log(Level.INFO, message);
+  }
+  
   
 
 }

@@ -7,7 +7,11 @@ public class TestLogger {
     LogUtil.setHandler();
     System.out.println(LogUtil.consoleHandler.getLevel());
     System.out.println(LogUtil.fileHandler.getLevel());
+    
+    LogUtil.info("Testing first log");
 
   }
+  
+  
 
 }
